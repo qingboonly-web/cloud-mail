@@ -132,9 +132,7 @@ const init = {
 
 	async v1_6DB(c) {
 
-		const noticeContent = '本项目仅供学习交流，禁止用于违法业务\n' +
-			'<br>\n' +
-			'请遵守当地法规，作者不承担任何法律责任'
+		const noticeContent = ''
 
 		const ADD_COLUMN_SQL_LIST = [
 			`ALTER TABLE setting ADD COLUMN reg_verify_count INTEGER NOT NULL DEFAULT 1;`,
